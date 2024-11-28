@@ -1,6 +1,8 @@
 int addDigits(int num) {
     int rem=0;
     int sum=0;
+    if(num==0)
+    return false;
     do{
         rem=num%10;
         sum=sum+rem;
